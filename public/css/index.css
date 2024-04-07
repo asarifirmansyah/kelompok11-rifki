@@ -1,0 +1,101 @@
+body {
+  font-family: "lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e8e9ea;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  background-color: rgb(25, 25, 247);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.hero-section {
+  background-image: url("../images/gambar.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: #fff;
+  height: calc(100vh - 200px);
+  /* margin-top: 70px; */
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 200px);
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 32.99%);
+  background-color: rgba(25, 25, 247, 0.55);
+}
+
+.section-heading {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.button-header {
+  background: rgb(25, 25, 247);
+  color: #fff;
+  margin-top: 33px;
+  border-radius: 10px;
+}
+
+.button-header:hover {
+  color: #fff;
+  background: rgb(38, 38, 242);
+}
+
+.conten-header {
+  margin-top: 50px;
+}
+
+.features-section {
+  padding: 50px 0;
+}
+.feature-box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+.feature-box > .img-fluid {
+  height: 300px;
+}
+
+.feature-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.feature-box p {
+  font-size: 18px;
+  width: 300px;
+}
+.about-section,
+.contact-section,
+.login-section,
+.form-section {
+  padding: 100px 0;
+}
+.footer-section {
+  background-color: rgb(25, 25, 247);
+  color: #ffffff;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: -100px;
+}
